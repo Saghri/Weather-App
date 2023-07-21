@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
+import "./currentWeather.css";
 
-export default function CurrentWeather({data}) {
+export default function WeatherCurrent({data}) {
   return (
     <div className="weather">
       <div className="top">
@@ -18,7 +19,7 @@ export default function CurrentWeather({data}) {
         <p className="temperature">{Math.round(data.main.temp)}°C</p>
         <div className="details">
           <div className="parameter-row">
-            <span className="parameter-label">Details</span>
+            <span className="parameter-label">Details:</span>
           </div>
           <div className="parameter-row">
             <span className="parameter-label">Feels like</span>
@@ -41,6 +42,5 @@ export default function CurrentWeather({data}) {
         </div>
       </div>
     </div>
-
-  )
+  );
 }
