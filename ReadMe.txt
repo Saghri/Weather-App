@@ -5,5 +5,6 @@ How To Set it Locally:
 Download ZIP file after clicking on Code option.
 Extract files on your PC.
 Open Weather App project in VS code.
+Open with Git bash or VS code terminal and run comman "npm install react-scripts --save" to install node-modules.
 Open terminal and run commad "npm start".
 Your react app will be running.
